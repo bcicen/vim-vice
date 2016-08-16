@@ -22,7 +22,7 @@ let s:light_blue = [159, "#afffff"]
 let s:light_yellow = [229, "#ffffaf"]
 
 let s:mint = [158, "#afffd7"]
-let s:dark_green = [29, "#00875f"]
+let s:dark_green = [109, "#87afaf"]
 
 let s:lavender = [183, "#dfafff"]
 let s:gray_purple = [146, "#afafd7"]
@@ -51,8 +51,8 @@ call s:Color("CursorLineNr", s:dark_pink, s:none, "NONE")
 call s:Color("ColorColumn", s:none, s:dark_gray, "NONE")
 call s:Color("LineNr", s:mid_gray, s:dark_gray, "NONE")
 call s:Color("VertSplit", s:mid_gray, s:mid_gray, "NONE")
-call s:Color("MatchParen", s:light_pink, s:none, "underline")
-call s:Color("StatusLine", s:default_white, s:mid_gray, "bold")
+call s:Color("MatchParen", s:mid_gray, s:light_blue, "NONE")
+call s:Color("StatusLine", s:default_white, s:mid_gray, "NONE")
 call s:Color("StatusLineNC", s:default_white, s:mid_gray, "NONE")
 call s:Color("Pmenu", s:none, s:none, "NONE")
 call s:Color("PmenuSel", s:none, s:dark_gray, "NONE")
@@ -62,10 +62,10 @@ call s:Color("Directory", s:lavender, s:none, "NONE")
 call s:Color("Folded", s:dark_lavender, s:default_white, "NONE")
 
 call s:Color("Define", s:gray_purple, s:none, "NONE")
-call s:Color("DiffAdd", s:default_white, s:dark_green, "bold")
+call s:Color("DiffAdd", s:default_white, s:dark_green, "NONE")
 call s:Color("DiffDelete", s:dark_pink, s:none, "NONE")
 call s:Color("DiffChange", s:default_white, s:dark_gray, "NONE")
-call s:Color("DiffText", s:default_white, s:dark_lavender, "bold")
+call s:Color("DiffText", s:default_white, s:dark_lavender, "NONE")
 call s:Color("ErrorMsg", s:default_white, s:dark_pink, "NONE")
 call s:Color("WarningMsg", s:default_white, s:dark_pink, "NONE")
 
@@ -89,8 +89,8 @@ call s:Color("Statement", s:teal, s:none, "NONE")
 call s:Color("StorageClass", s:mint, s:none, "NONE")
 call s:Color("String", s:mint, s:none, "NONE")
 call s:Color("Tag", s:light_pink, s:none, "NONE")
-call s:Color("Title", s:default_white, s:none, "bold")
-call s:Color("Todo", s:dark_pink, s:default_white, "inverse,bold")
+call s:Color("Title", s:default_white, s:none, "NONE")
+call s:Color("Todo", s:dark_pink, s:default_white, "inverse,NONE")
 call s:Color("Type", s:mint, s:none, "NONE")
 call s:Color("Underlined", s:none, s:none, "underline")
 
