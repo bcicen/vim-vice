@@ -69,6 +69,7 @@ call s:Color("DiffDelete", s:red, s:none, "NONE")
 call s:Color("DiffChange", s:white, s:dark_gray, "NONE")
 call s:Color("DiffText", s:mid_gray, s:light_blue, "NONE")
 call s:Color("ErrorMsg", s:white, s:hot_pink, "NONE")
+call s:Color("Overlength", s:mid_gray, s:light_yellow, "NONE")
 call s:Color("WarningMsg", s:white, s:hot_pink, "NONE")
 
 call s:Color("Boolean", s:lavender, s:none, "NONE")
