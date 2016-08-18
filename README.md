@@ -3,6 +3,8 @@
 
 Vice is a dark and vibrant colorscheme for vim.
 
+![screencap][screencap]
+
 ## Installing
 
 Install vim-vice using your plugin manager of choice:
@@ -26,3 +28,4 @@ colorscheme vice
 ```
 
 [logo]: http://i.imgur.com/HWvyN7M.png "vice"
+[screencap]: http://i.imgur.com/Ls6F24r.png "vice"
