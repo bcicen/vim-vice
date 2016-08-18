@@ -1,4 +1,15 @@
-" Vim color file
+"  /$$    /$$ /$$$$$$  /$$$$$$  /$$$$$$$$
+" | $$   | $$|_  $$_/ /$$__  $$| $$_____/
+" | $$   | $$  | $$  | $$  \__/| $$      
+" |  $$ / $$/  | $$  | $$      | $$$$$   
+"  \  $$ $$/   | $$  | $$      | $$__/   
+"   \  $$$/    | $$  | $$    $$| $$      
+"    \  $/    /$$$$$$|  $$$$$$/| $$$$$$$$
+"     \_/    |______/ \______/ |________/
+                                        
+" URL: https://github.com/bcicen/vim-vice
+" Author: Bradley Cicenas <bradley@vektor.nyc>
+" License: MIT
 
 highlight clear
 set background=dark
