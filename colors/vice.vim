@@ -15,7 +15,6 @@ highlight clear
 set background=dark
 if exists('syntax_on') | syntax reset | endif
 
-set t_Co=256
 let g:colors_name = "vice"
 
 " Color definitions
