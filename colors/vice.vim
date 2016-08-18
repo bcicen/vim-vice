@@ -20,8 +20,9 @@ let g:colors_name = "vice"
 
 " Color definitions
 let s:white = [231, "#ffffff"]
-let s:mid_gray = [102, "#878787"]
-let s:dark_gray = [235, "#303030"]
+let s:grey0 = [102, "#878787"] "lightest grey
+let s:grey1 = [238, "#444444"] "mid grey
+let s:grey2 = [235, "#303030"] "darkest grey
 
 let s:pink = [212, "#ff87d7"]
 let s:light_pink = [218, "#ffafdf"]
@@ -55,22 +56,22 @@ function! s:Color(name, fg, bg, style)
   execute "hi " . a:name . " gui=" . a:style
 endfun
 
-call s:Color("Normal", s:white, s:dark_gray, "NONE")
-call s:Color("Cursor", s:dark_gray, s:white, "NONE")
-call s:Color("Visual", s:none, s:mid_gray, "NONE")
-call s:Color("CursorLine", s:none, s:dark_gray, "NONE")
-call s:Color("CursorColumn", s:none, s:dark_gray, "NONE")
+call s:Color("Normal", s:white, s:grey2, "NONE")
+call s:Color("Cursor", s:grey2, s:white, "NONE")
+call s:Color("Visual", s:none, s:grey0, "NONE")
+call s:Color("CursorLine", s:none, s:grey2, "NONE")
+call s:Color("CursorColumn", s:none, s:grey2, "NONE")
 call s:Color("CursorLineNr", s:hot_pink, s:none, "NONE")
-call s:Color("ColorColumn", s:none, s:dark_gray, "NONE")
-call s:Color("LineNr", s:mid_gray, s:dark_gray, "NONE")
-call s:Color("VertSplit", s:mid_gray, s:mid_gray, "NONE")
-call s:Color("MatchParen", s:mid_gray, s:light_blue, "NONE")
-call s:Color("StatusLine", s:white, s:mid_gray, "NONE")
-call s:Color("StatusLineNC", s:white, s:mid_gray, "NONE")
-call s:Color("Pmenu", s:white, s:mid_gray, "NONE")
-call s:Color("PmenuSel", s:mid_gray, s:light_blue, "NONE")
-call s:Color("IncSearch", s:mid_gray, s:light_blue, "NONE")
-call s:Color("Search", s:mid_gray, s:light_blue, "NONE")
+call s:Color("ColorColumn", s:none, s:grey2, "NONE")
+call s:Color("LineNr", s:grey0, s:grey2, "NONE")
+call s:Color("VertSplit", s:grey0, s:grey0, "NONE")
+call s:Color("MatchParen", s:grey0, s:light_blue, "NONE")
+call s:Color("StatusLine", s:white, s:grey0, "NONE")
+call s:Color("StatusLineNC", s:white, s:grey0, "NONE")
+call s:Color("Pmenu", s:white, s:grey0, "NONE")
+call s:Color("PmenuSel", s:grey0, s:light_blue, "NONE")
+call s:Color("IncSearch", s:grey0, s:light_blue, "NONE")
+call s:Color("Search", s:grey0, s:light_blue, "NONE")
 call s:Color("Directory", s:light_blue, s:none, "NONE")
 call s:Color("Folded", s:dark_lavender, s:white, "NONE")
 call s:Color("Define", s:gray_purple, s:none, "NONE")
@@ -78,12 +79,12 @@ call s:Color("Define", s:gray_purple, s:none, "NONE")
 " Diff
 call s:Color("DiffAdd", s:white, s:dark_mint, "NONE")
 call s:Color("DiffDelete", s:red, s:none, "NONE")
-call s:Color("DiffChange", s:white, s:dark_gray, "NONE")
-call s:Color("DiffText", s:mid_gray, s:light_blue, "NONE")
+call s:Color("DiffChange", s:white, s:grey2, "NONE")
+call s:Color("DiffText", s:grey0, s:light_blue, "NONE")
 
 " Command line
 call s:Color("ErrorMsg", s:white, s:hot_pink, "NONE")
-call s:Color("Overlength", s:mid_gray, s:light_yellow, "NONE")
+call s:Color("Overlength", s:grey0, s:light_yellow, "NONE")
 call s:Color("WarningMsg", s:white, s:hot_pink, "NONE")
 
 " Elements
@@ -97,12 +98,12 @@ call s:Color("Function", s:pink, s:none, "NONE")
 call s:Color("Identifier", s:pink, s:none, "NONE")
 call s:Color("Keyword", s:pink, s:none, "NONE")
 call s:Color("Label", s:hot_pink, s:none, "NONE")
-call s:Color("NonText", s:white, s:dark_gray, "NONE")
+call s:Color("NonText", s:white, s:grey2, "NONE")
 call s:Color("Number", s:mint, s:none, "NONE")
 call s:Color("Operator", s:light_pink, s:none, "NONE")
-call s:Color("PreProc", s:pink, s:none, "NONE")
+call s:Color("PreProc", s:teal, s:none, "NONE")
 call s:Color("Special", s:pink, s:none, "NONE")
-call s:Color("SpecialKey", s:white, s:dark_gray, "NONE")
+call s:Color("SpecialKey", s:white, s:grey2, "NONE")
 call s:Color("Statement", s:teal, s:none, "NONE")
 call s:Color("StorageClass", s:mint, s:none, "NONE")
 call s:Color("String", s:mint, s:none, "NONE")
@@ -113,9 +114,9 @@ call s:Color("Type", s:mint, s:none, "NONE")
 call s:Color("Underlined", s:none, s:none, "underline")
 
 " Tab line
-call s:Color("TabLine",  s:mint, s:dark_gray, "NONE")
-call s:Color("TabLineSel", s:mid_gray, s:mint, "NONE")
-call s:Color("TabLineFill",  s:white, s:dark_gray, "NONE")
+call s:Color("TabLine",  s:mint, s:grey1, "NONE")
+call s:Color("TabLineSel", s:grey1, s:mint, "NONE")
+call s:Color("TabLineFill",  s:white, s:grey2, "NONE")
 
 " Language and filetype specific
 call s:Color("pythonStatement", s:teal, s:none, "NONE")

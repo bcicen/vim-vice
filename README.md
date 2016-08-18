@@ -1,7 +1,7 @@
 # vim-vice
 ![logo][logo]
 
-Vice is a dark and colorful colorscheme for vim.
+Vice is a dark and vibrant colorscheme for vim.
 
 ## Installing
 
