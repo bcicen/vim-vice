@@ -16,7 +16,7 @@ set background=dark
 if exists('syntax_on') | syntax reset | endif
 
 set t_Co=256
-let g:colors_name = "miami"
+let g:colors_name = "vice"
 
 " Color definitions
 let s:white = [231, "#ffffff"]
@@ -73,16 +73,20 @@ call s:Color("IncSearch", s:mid_gray, s:light_blue, "NONE")
 call s:Color("Search", s:mid_gray, s:light_blue, "NONE")
 call s:Color("Directory", s:light_blue, s:none, "NONE")
 call s:Color("Folded", s:dark_lavender, s:white, "NONE")
-
 call s:Color("Define", s:gray_purple, s:none, "NONE")
+
+" Diff
 call s:Color("DiffAdd", s:white, s:dark_mint, "NONE")
 call s:Color("DiffDelete", s:red, s:none, "NONE")
 call s:Color("DiffChange", s:white, s:dark_gray, "NONE")
 call s:Color("DiffText", s:mid_gray, s:light_blue, "NONE")
+
+" Command line
 call s:Color("ErrorMsg", s:white, s:hot_pink, "NONE")
 call s:Color("Overlength", s:mid_gray, s:light_yellow, "NONE")
 call s:Color("WarningMsg", s:white, s:hot_pink, "NONE")
 
+" Elements
 call s:Color("Boolean", s:lavender, s:none, "NONE")
 call s:Color("Character", s:lavender, s:none, "NONE")
 call s:Color("Comment", s:gray_purple, s:none, "NONE")
@@ -108,6 +112,12 @@ call s:Color("Todo", s:hot_pink, s:white, "inverse,NONE")
 call s:Color("Type", s:mint, s:none, "NONE")
 call s:Color("Underlined", s:none, s:none, "underline")
 
+" Tab line
+call s:Color("TabLine",  s:mint, s:dark_gray, "NONE")
+call s:Color("TabLineSel", s:mid_gray, s:mint, "NONE")
+call s:Color("TabLineFill",  s:white, s:dark_gray, "NONE")
+
+" Language and filetype specific
 call s:Color("pythonStatement", s:teal, s:none, "NONE")
 
 call s:Color("htmlTag", s:none, s:none, "NONE")
