@@ -1,5 +1,6 @@
 # vim-vice
 ![logo][logo]
+*“No one gossips about other people’s secret virtues.”*
 
 Vice is a dark and vibrant colorscheme for vim.
 
