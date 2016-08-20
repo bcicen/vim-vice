@@ -1,0 +1,34 @@
+[global_config]
+  borderless = True
+  enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  inactive_color_offset = 0.89
+  title_inactive_bg_color = "#444444"
+  title_inactive_fg_color = "#878787"
+  title_receive_bg_color = "#444444"
+  title_receive_fg_color = "#87ffff"
+  title_transmit_bg_color = "#444444"
+  title_transmit_fg_color = "#afffd7"
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = default
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    active_encodings = ANSI_X3.4-1968, UTF-8, ISO-8859-1
+    allow_bold = False
+    background_color = "#303030"
+    background_image = None
+    cursor_color = "#7b7b7b"
+    foreground_color = "#fdfdfd"
+    icon_bell = False
+    login_shell = True
+    palette = "#303030:#ff00ff:#a3d4a3:#ffffaf:#87ffff:#afafd7:#87ffff:#878787:#878787:#ff87d7:#afffd7:#ffffaf:#afffff:#ffafdf:#afffff:#ffffff"
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False
