@@ -125,6 +125,8 @@ call s:Color("htmlEndTag", s:none, s:none, "NONE")
 call s:Color("htmlTagName", s:none, s:none, "NONE")
 call s:Color("htmlArg", s:none, s:none, "NONE")
 call s:Color("htmlSpecialChar", s:lavender, s:none, "NONE")
+call s:Color("htmlItalic", s:mint, s:none, "NONE")
+call s:Color("htmlBold", s:dark_mint, s:none, "NONE")
 
 call s:Color("javaScriptFunction", s:mint, s:none, "NONE")
 call s:Color("javaScriptRailsFunction", s:mint, s:none, "NONE")
