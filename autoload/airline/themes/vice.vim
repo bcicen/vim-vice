@@ -1,3 +1,5 @@
+let g:airline#themes#vice#palette = {}
+
 " Color definitions
 let s:white = [231, "#ffffff"]
 let s:grey0 = [102, "#878787"] "lightest grey
