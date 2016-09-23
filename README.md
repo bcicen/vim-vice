@@ -29,4 +29,4 @@ colorscheme vice
 ```
 
 [logo]: http://i.imgur.com/HWvyN7M.png "vice"
-[screencap]: http://i.imgur.com/Ls6F24r.png "vice"
+[screencap]: http://i.imgur.com/WPRvqy4.png "vice"
