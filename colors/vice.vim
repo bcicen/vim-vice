@@ -21,7 +21,7 @@ let g:colors_name = "vice"
 let s:white = [231, "#ffffff"]
 let s:grey0 = [102, "#878787"] "lightest grey
 let s:grey1 = [238, "#444444"] "mid grey
-let s:grey2 = [235, "#262626"] "darkest grey
+let s:grey2 = [236, "#303030"] "darkest grey
 
 let s:pink = [212, "#ff87d7"]
 let s:light_pink = [218, "#ffafd7"]
