@@ -72,7 +72,7 @@ call s:Color("PmenuSel", s:grey0, s:light_blue, "NONE")
 call s:Color("IncSearch", s:grey0, s:light_blue, "NONE")
 call s:Color("Search", s:grey0, s:light_blue, "NONE")
 call s:Color("Directory", s:light_blue, s:none, "NONE")
-call s:Color("Folded", s:dark_lavender, s:white, "NONE")
+call s:Color("Folded", s:mint, s:grey1, "NONE")
 call s:Color("Define", s:gray_purple, s:none, "NONE")
 
 " Diff
