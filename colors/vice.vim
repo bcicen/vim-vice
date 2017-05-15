@@ -11,37 +11,34 @@
 " Author: Bradley Cicenas <bradley@vektor.nyc>
 " License: MIT
 
-highlight clear
 set background=dark
-if exists('syntax_on') | syntax reset | endif
+highlight clear
 
+if exists("syntax_on")
+  syntax reset
+endif
+
+set t_Co=256
 let g:colors_name = "vice"
 
 " Color definitions
-let s:white = [231, "#ffffff"]
-let s:grey0 = [102, "#878787"] "lightest grey
-let s:grey1 = [238, "#444444"] "mid grey
-let s:grey2 = [236, "#303030"] "darkest grey
-
-let s:pink = [212, "#ff87d7"]
-let s:light_pink = [218, "#ffafd7"]
-let s:hot_pink = [201, "#ff00ff" ]
-
-let s:red = [197, "#ff005f" ]
-
-let s:teal = [123, "#87ffff"]
-let s:light_blue = [159, "#afffff"]
-
-let s:light_yellow = [229, "#ffffaf"]
-
-let s:mint = [158, "#afffd7"]
-let s:dark_mint = [49, "#00ffaf"]
-
-let s:lavender = [183, "#d7afff"]
-let s:gray_purple = [146, "#afafd7"]
+let s:white         = [231, "#ffffff"]
+let s:grey0         = [102, "#878787"] "lightest grey
+let s:grey1         = [238, "#444444"] "mid grey
+let s:grey2         = [236, "#303030"] "darkest grey
+let s:pink          = [212, "#ff87d7"]
+let s:light_pink    = [218, "#ffafd7"]
+let s:hot_pink      = [201, "#ff00ff" ]
+let s:red           = [197, "#ff005f" ]
+let s:teal          = [123, "#87ffff"]
+let s:light_blue    = [159, "#afffff"]
+let s:light_yellow  = [229, "#ffffaf"]
+let s:mint          = [158, "#afffd7"]
+let s:dark_mint     = [49, "#00ffaf"]
+let s:lavender      = [183, "#d7afff"]
+let s:gray_purple   = [146, "#afafd7"]
 let s:dark_lavender = [97, "#875faf"]
-
-let s:none = ["NONE", ""]
+let s:none          = ["NONE", ""]
 
 " func
 function! s:Color(name, fg, bg, style)
