@@ -18,29 +18,27 @@ let s:dark_lavender = ["#875faf",  97]
 let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
 
 " Normal Mode
-" TODO Second part
-let s:p.normal.left = [[s:grey1, s:teal], [s:teal, s:grey1]]
+let s:p.normal.left = [[s:grey1, s:teal], [s:white, s:grey1]]
 let s:p.normal.middle = [[ s:white, s:grey2 ]]
-let s:p.normal.right = [[ s:grey2, s:teal], [s:white, s:grey2]]
+let s:p.normal.right = [[ s:grey2, s:teal], [s:white, s:grey1]]
 
 "Insert Mode
-let s:p.insert.left = [[ s:grey1, s:mint ], [s:teal, s:grey1]]
+let s:p.insert.left = [[ s:grey1, s:mint ], [s:white, s:grey1]]
 let s:p.insert.middle = [[ s:white, s:grey2 ]]
-let s:p.insert.right = [[ s:grey2, s:mint], [s:white, s:grey2]]
+let s:p.insert.right = [[ s:grey2, s:mint], [s:white, s:grey1]]
 
 " Visual Mode
-let s:p.visual.left = [ [ s:grey1, s:pink ], [ s:teal, s:grey1 ] ]
+let s:p.visual.left = [ [ s:grey1, s:pink ], [ s:white, s:grey1 ] ]
 let s:p.visual.middle = [[ s:white, s:grey2 ]]
-let s:p.visual.right = [ [ s:grey2, s:pink ], [ s:white, s:grey2 ] ]
+let s:p.visual.right = [ [ s:grey2, s:pink ], [ s:white, s:grey1 ] ]
 
 " Inactive Mode
-" TODO FIX THIS BLOCK
 let s:p.inactive.left =  [ [ s:grey0, s:grey1 ], [ s:grey0, s:grey1 ] ]
 let s:p.inactive.middle = [ [ s:grey0, s:grey1 ] ]
 let s:p.inactive.right = [ [ s:grey0, s:grey1 ], [ s:grey0, s:grey1 ] ]
 
 " Replace Mode
-let s:p.replace.left = [ [ s:grey1, s:lavender ], [ s:teal, s:grey1 ] ]
-let s:p.replace.right = [ [ s:grey2, s:lavender ], [ s:white, s:grey2 ] ]
+let s:p.replace.left = [ [ s:grey1, s:lavender ], [ s:white, s:grey1 ] ]
+let s:p.replace.right = [ [ s:grey2, s:lavender ], [ s:white, s:grey1 ] ]
 
 let g:lightline#colorscheme#vice#palette = lightline#colorscheme#flatten(s:p)
