@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Sublime VICE Theme v1.0.0
+#
+# https://github.com/bcicen/vim-vice
+#
+# Copyright 2018-present, All rights reserved
+#
+# Code licensed under the MIT license
+#
+# Original vim-vice theme by Bradley Cicenas bradley[at]vektor.nyc
+#
+-->
+
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+   <key>name</key>
+   <string>VICE</string>
+   <key>settings</key>
+   <array>
+      <dict>
+         <key>settings</key>
+         <dict>
+            <key>caret</key>
+            <string>#FFFFFF</string>
+            <key>background</key>
+            <string>#303030</string>
+            <key>foreground</key>
+            <string>#FFFFFF</string>
+            <key>gutter</key>
+            <string>#303030</string>
+            <key>gutterForeground</key>
+            <string>#878787</string>
+            <key>selection</key>
+            <string>#444444</string>
+            <key>selectionBorder</key>
+            <string>#AFAFD7</string>
+            <key>invisibles</key>
+            <string>#ABCDEF</string>
+            <key>lineHighlight</key>
+            <string>#AFAFD755</string>
+            <key>highlight</key>
+            <string>#FF00FF</string>
+            <key>findHighlight</key>
+            <string>#FFFFAF</string>
+            <key>findHighlightForeground</key>
+            <string>#000000</string>
+            <key>accent</key>
+            <string>#FF00FF</string>
+            <key>activeGuide</key>
+            <string>#ABCDEF</string>
+            <key>bracketsForeground</key>
+            <string>#ABCDEF</string>
+            <key>bracketContentsForeground</key>
+            <string>#ABCDEF</string>
+            <key>bracketsOptions</key>
+            <string>underline</string>
+            <key>bracketContentsOptions</key>
+            <string>underline</string>
+            <key>tagsOptions</key>
+            <string>stippled_underline</string>
+
+         </dict>
+      </dict>
+      
+      <dict>
+         <key>scope</key>
+         <string>entity.name</key>
+         <key>settings</key>
+         <dict>
+            <key>foreground</key>
+            <string>#FFFFFF</key>         </dict>
+      </dict>
+      <dict>
+         <key>scope</key>
+         <string>entity.other.inherited-class</key>
+         <key>settings</key>
+         <dict>
+            <key>foreground</key>
+            <string>#FFFFFF</key>         </dict>
+      </dict>
+      <dict>
+         <key>scope</key>
+         <string>entity.name.section</key>
+         <key>settings</key>
+         <dict>
+            <key>foreground</key>
+            <string>#FFFFFF</key>         </dict>
+      </dict>
+      <dict>
+         <key>scope</key>
+         <string>entity.name.tag</key>
+         <key>settings</key>
+         <dict>
+            <key>foreground</key>
+            <string>#AFFFFF</key>         </dict>
+      </dict>
+      <dict>
+         <key>scope</key>
+         <string>entity.other.attribute-name</key>
+         <key>settings</key>
+         <dict>
+            <key>foreground</key>
+            <string>#FFFFFF</key>         </dict>
+      </dict>
+      <dict>
+         <key>scope</key>
+         <string>variable</key>
+         <key>settings</key>
+         <dict>
+            <key>foreground</key>
+            <string>#FFFFFF</key>         </dict>
+      </dict>
+      <dict>
+         <key>scope</key>
+         <string>variable.parameter</key>
+         <key>settings</key>
+         <dict>
+            <key>foreground</key>
+            <string>#FFFFFF</key>         </dict>
+      </dict>
+      <dict>
+         <key>scope</key>
+         <string>variable.function</key>
+         <key>settings</key>
+         <dict>
+            <key>foreground</key>
+            <string>#FFFFFF</key>         </dict>
+      </dict>
+      <dict>
+         <key>scope</key>
+         <string>support.function</key>
+         <key>settings</key>
+         <dict>
+            <key>foreground</key>
+            <string>#87FFFF</key>         </dict>
+      </dict>
+      <dict>
+         <key>scope</key>
+         <string>punctuation.definition.variable</key>
+         <key>settings</key>
+         <dict>
+            <key>foreground</key>
+            <string>#FFAFD7</key>         </dict>
+      </dict>
+      <dict>
+         <key>scope</key>
+         <string>constant</key>
+         <key>settings</key>
+         <dict>
+            <key>foreground</key>
+            <string>#AFFFD7</key>         </dict>
+      </dict>
+      <dict>
+         <key>scope</key>
+         <string>constant.language</key>
+         <key>settings</key>
+         <dict>
+            <key>foreground</key>
+            <string>#AFFFD7</key>         </dict>
+      </dict>
+      <dict>
+         <key>scope</key>
+         <string>constant.numeric</key>
+         <key>settings</key>
+         <dict>
+            <key>foreground</key>
+            <string>#AFFFD7</key>         </dict>
+      </dict>
+      <dict>
+         <key>scope</key>
+         <string>constant.character.escape</key>
+         <key>settings</key>
+         <dict>
+            <key>foreground</key>
+            <string>#AFFFD7</key>         </dict>
+      </dict>
+      <dict>
+         <key>scope</key>
+         <string>meta.function.parameters</key>
+         <key>settings</key>
+         <dict>
+            <key>foreground</key>
+            <string>#FF87D7</key>         </dict>
+      </dict>
+      <dict>
+         <key>scope</key>
+         <string>storage.type</key>
+         <key>settings</key>
+         <dict>
+            <key>foreground</key>
+            <string>#FF87D7</key>         </dict>
+      </dict>
+      <dict>
+         <key>scope</key>
+         <string>storage.modifier</key>
+         <key>settings</key>
+         <dict>
+            <key>foreground</key>
+            <string>#AFFFD7</key>         </dict>
+      </dict>
+      <dict>
+         <key>scope</key>
+         <string>support.class</key>
+         <key>settings</key>
+         <dict>
+            <key>foreground</key>
+            <string>#FFFFFF</key>         </dict>
+      </dict>
+      <dict>
+         <key>scope</key>
+         <string>keyword</key>
+         <key>settings</key>
+         <dict>
+            <key>foreground</key>
+            <string>#AFAFD7</key>         </dict>
+      </dict>
+      <dict>
+         <key>scope</key>
+         <string>keyword.control</key>
+         <key>settings</key>
+         <dict>
+            <key>foreground</key>
+            <string>#AFFFFF</key>         </dict>
+      </dict>
+      <dict>
+         <key>scope</key>
+         <string>keyword.operator</key>
+         <key>settings</key>
+         <dict>
+            <key>foreground</key>
+            <string>#AFFFFF</key>         </dict>
+      </dict>
+      <dict>
+         <key>scope</key>
+         <string>keyword.operator.assignment</key>
+         <key>settings</key>
+         <dict>
+            <key>foreground</key>
+            <string>#FFAFD7</key>         </dict>
+      </dict>
+      <dict>
+         <key>scope</key>
+         <string>string</key>
+         <key>settings</key>
+         <dict>
+            <key>foreground</key>
+            <string>#AFFFD7</key>         </dict>
+      </dict>
+      <dict>
+         <key>scope</key>
+         <string>string.unquoted</key>
+         <key>settings</key>
+         <dict>
+            <key>foreground</key>
+            <string>#FFFFFF</key>         </dict>
+      </dict>
+      <dict>
+         <key>scope</key>
+         <string>comment</key>
+         <key>settings</key>
+         <dict>
+            <key>foreground</key>
+            <string>#AFAFD7</key>
+            <key>fontStyle</key>
+            <string>italic</key>         </dict>
+      </dict>
+      <dict>
+         <key>scope</key>
+         <string>punctuation.definition.comment</key>
+         <key>settings</key>
+         <dict>
+            <key>foreground</key>
+            <string>#AFAFD7</key>         </dict>
+      </dict>
+      <dict>
+         <key>scope</key>
+         <string>invalid</key>
+         <key>settings</key>
+         <dict>
+            <key>foreground</key>
+            <string>#FFFFFF</key>
+            <key>background</key>
+            <string>#FF00FF</key>         </dict>
+      </dict>
+      <dict>
+         <key>scope</key>
+         <string>punctuation</key>
+         <key>settings</key>
+         <dict>
+            <key>foreground</key>
+            <string>#FF87D7</key>         </dict>
+      </dict>
+      <dict>
+         <key>scope</key>
+         <string>punctuation.separator</key>
+         <key>settings</key>
+         <dict>
+            <key>foreground</key>
+            <string>#FFFFFF</key>         </dict>
+      </dict>
+      <dict>
+         <key>scope</key>
+         <string>punctuation.separator.continuation</key>
+         <key>settings</key>
+         <dict>
+            <key>foreground</key>
+            <string>#FFFFFF</key>         </dict>
+      </dict>
+      <dict>
+         <key>scope</key>
+         <string>punctuation.terminator</key>
+         <key>settings</key>
+         <dict>
+            <key>foreground</key>
+            <string>#FFFFFF</key>         </dict>
+      </dict>
+      <dict>
+         <key>scope</key>
+         <string>punctuation.accessor</key>
+         <key>settings</key>
+         <dict>
+            <key>foreground</key>
+            <string>#AFFFD7</key>         </dict>
+      </dict>
+      <dict>
+         <key>scope</key>
+         <string>punctuation.definition.string.begin</key>
+         <key>settings</key>
+         <dict>
+            <key>foreground</key>
+            <string>#FFFFFF</key>         </dict>
+      </dict>
+      <dict>
+         <key>scope</key>
+         <string>punctuation.definition.string.end</key>
+         <key>settings</key>
+         <dict>
+            <key>foreground</key>
+            <string>#FFFFFF</key>         </dict>
+      </dict>
+      <dict>
+         <key>scope</key>
+         <string>meta.structure.dictionary.key string</key>
+         <key>settings</key>
+         <dict>
+            <key>foreground</key>
+            <string>#FFFFAF</key>         </dict>
+      </dict>
+      <dict>
+         <key>scope</key>
+         <string>support.type.property-name.css</key>
+         <key>settings</key>
+         <dict>
+            <key>foreground</key>
+            <string>#FFAFD7</key>         </dict>
+      </dict>
+      <dict>
+         <key>scope</key>
+         <string>support.constant.property-value.css</key>
+         <key>settings</key>
+         <dict>
+            <key>foreground</key>
+            <string>#FFFFFF</key>         </dict>
+      </dict>
+   </array>
+   <key>uuid</key>
+   <string>AF285292-7A98-4339-A1A8-257F162DEA6F</string>
+   <key>colorSpaceName</key>
+   <string>sRGB</string>
+   <key>semanticClass</key>
+   <string>theme.VICE</string>
+   <key>author</key>
+   <string>vim-vice theme Bradley Cicenas 2016.  Sublime conversion Jason Stewart 2018.</string>
+</dict>
+</plist>
