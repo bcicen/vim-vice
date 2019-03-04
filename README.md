@@ -60,5 +60,12 @@ make install
 
 And select the Vice theme in `Preferences > Color Scheme`.
 
+### [gotop](https://github.com/cjbassi/gotop)
+
+Provide the `-c` option to use the Vice colorscheme:
+```bash
+gotop -c vice
+```
+
 [logo]: http://i.imgur.com/HWvyN7M.png "vice"
 [screencap]: http://i.imgur.com/WPRvqy4.png "vice"
